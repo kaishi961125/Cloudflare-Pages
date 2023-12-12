@@ -181,3 +181,11 @@
 127.0.0.1 v29-be-pack-nxyd.pglstatp-toutiao.com
 
 127.0.0.1 v30-be-pack-nxyd.pglstatp-toutiao.com
+
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
